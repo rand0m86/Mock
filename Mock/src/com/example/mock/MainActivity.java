@@ -80,7 +80,6 @@ public class MainActivity extends Activity {
 	public void onClick(View view) {
 		quote = (TextView) findViewById(R.id.quote);
 		author = (TextView) findViewById(R.id.header);
-		// text.setText("edited");
 		String response;
 		try {
 			URL url = new URL(LINK + random.nextInt(MAX_QUOTES) + SLASH);
